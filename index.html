@@ -77,13 +77,13 @@
     </div>
 </div>
 <div class="logos">
-    <a>
+    <a href="/product/knobs">
         <img src="/img/knob.png" alt="get Knobs">
     </a>
-    <a>
+    <a href="/product/fortunafloris">
         <img src="/img/fortunafloris mit untertitel.png" alt="get Fortuna Floris">
     </a>
-    <a>
+    <a href="/product/sprinklet">
         <img src="/img/sprinklet.svg" alt="get Sprinklet">
     </a>
 </div>
@@ -153,10 +153,13 @@
         border-radius: .5em;
         text-transform: uppercase;
         letter-spacing: .1em;
-        aspect-ratio: 1/1;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    :not(.onlybtns) > li a {
+        aspect-ratio: 1/1;
     }
 
     .logos li a {
